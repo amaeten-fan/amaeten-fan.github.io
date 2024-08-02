@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head prefix="og: https://ogp.me/ns# fb: https://ogp.me/ns/fb#">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+        <!-- ▼ Title, Description, Keywords ▼-->
+        <title>天廻てんの歌枠 | Amae Ten's Singing Stream (unofficial)</title>
+        <meta name="description" content="FIRST STAGE PRODUCTION所属Vtuber 天廻てんさんの非公式サイトです。">
+        <meta name="author" content="じうすれ">
+        <link rel="shortcut icon" href="favicon.ico">
+        <!-- <link rel="icon" href="animated_favicon.gif" type="image/gif"> -->
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+        <link rel="stylesheet" href="css/common.css">
+        <link rel="stylesheet" href="css/singing.css">
+    </head>
+    <body>
+        <header>
+            <div class="header-content">
+                <h2 id="header-title"><a href="/" class="home-link">天廻てん非公式サイト</a></h2>
+                <div class="menu-container">
+                    <nav class="menu">
+                        <ul id="menu-list"></ul>
+                    </nav>
+                    <button class="hamburger" id="hamburger-btn" type="button">☰</button>
+                    <nav class="hamburger-menu">
+                        <ul id="hamburger-list"></ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+
+        <main id="mainContent">
+            <div class="sidenav">
+                <button class="sidenav-toggle" type="button">☰ 目次</button>
+                <ul class="sidenav-title"></ul>
+            </div>
+            <div class="main-content">
+                <section>
+                    <h2 id="stream" class="s-title">歌枠 / Singing Stream</h2>
+                    <div id="videoSelecter" class="videoSelecter">
+                        <label for="videoSelect">アーカイブ：</label>
+                        <select id="videoSelect">
+                            <option value="default">お選びください</option>
+                        </select>
+                    </div>
+                    <div id="videoContainer" style="text-align: center; margin: 20px 0;">
+                        <iframe id="youtubeVideo" width="480" height="270" src="" title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
+                    <div>
+                        <table id="songsTable" class="songsTable global-table">
+                            <thead>
+                                <tr class="select-disabled"></tr>
+                            </thead>
+                            <tbody></tbody>
+                        </table>
+                    </div>
+                    <hr class="style-two">
+                </section>
+            </div>
+        </main>
+
+        <footer>
+            <hr class="style-two">
+            <div class="footer-content">
+                <p>このサイトは非公式のファンサイトです。詳細は<a href="about.html">こちら</a>。</p>
+                <p>&copy; 2024 天廻てん非公式サイト</p>
+                <p><a href="privacypolicy.html">プライバシーポリシー</a></p>
+            </div>
+        </footer>
+
+        <a id="theme-change" class="select-disabled">◐</a>
+        <a id="back-to-top" class="select-disabled">⤴️</a>
+
+        <script src="js/common.js"></script>
+        <script src="js/singing.js"></script>
+
+    </body>
+</html>

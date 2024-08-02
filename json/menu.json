@@ -1,0 +1,62 @@
+[
+    {
+        "text": "Home",
+        "href": "/",
+        "target": false,
+        "only": ""
+    },
+    {
+        "text": "Singing",
+        "href": "singing.html",
+        "target": false,
+        "only": ""
+    },
+    {
+        "text": "Voice",
+        "href": "voice.html",
+        "target": false,
+        "only": ""
+    },
+    {
+        "text": "Contact",
+        "href": "contact.html",
+        "target": false,
+        "only": "-"
+    },
+    {
+        "text": "Default",
+        "href": "default.html",
+        "target": false,
+        "only": "-"
+    },
+    {
+        "text": "About",
+        "href": "about.html",
+        "target": false,
+        "only": ""
+    },
+    {
+        "text": "|",
+        "href": "",
+        "target": false,
+        "only": "menu"
+    },
+    {
+        "text": "-",
+        "href": "",
+        "target": false,
+        "only": "hamburger"
+    },
+    {
+        "text": "Twitter",
+        "href": "https://twitter.com/amaeten_fsp",
+        "target": true,
+        "only": ""
+    },
+    {
+        "text": "YouTube",
+        "href": "https://youtube.com/@amaeten_fsp",
+        "target": true,
+        "only": ""
+    }
+]

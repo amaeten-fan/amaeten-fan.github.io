@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head prefix="og: https://ogp.me/ns# fb: https://ogp.me/ns/fb#">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+        <!-- ▼ Title, Description, Keywords ▼-->
+        <title>天廻てん非公式サイト | Amae Ten (unofficial)</title>
+        <meta name="description" content="FIRST STAGE PRODUCTION所属Vtuber 天廻てんさんの非公式サイトです。">
+        <meta name="author" content="じうすれ">
+        <link rel="shortcut icon" href="favicon.ico">
+        <!-- <link rel="icon" href="animated_favicon.gif" type="image/gif"> -->
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+        <link rel="stylesheet" href="css/common.css">
+        <link rel="stylesheet" href="css/voice.css">
+    </head>
+    <body>
+        <header>
+            <div class="header-content">
+                <h2 id="header-title"><a href="/" class="home-link">天廻てん非公式サイト</a></h2>
+                <div class="menu-container">
+                    <nav class="menu">
+                        <ul id="menu-list"></ul>
+                    </nav>
+                    <button class="hamburger" id="hamburger-btn" type="button">☰</button>
+                    <nav class="hamburger-menu">
+                        <ul id="hamburger-list"></ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+
+        <main id="mainContent">
+            <div class="sidenav">
+                <button class="sidenav-toggle" type="button">☰ 目次</button>
+                <ul class="sidenav-title"></ul>
+            </div>
+            <div class="main-content">
+                <section>
+                    <h2 id="voice" class="s-title">てんてんボタン / Tenten Button</h2>
+                    <div class="button-container" id="buttonContainer">
+                    </div>
+                    <div id="customAudioControls" class="hidden custom-audio-controls">
+                        <input type="range" id="seekBar" value="0" max="100" aria-label="Playback SeekBar">
+                        <div class="controls-row">
+                            <button id="playPauseButton" class="button-style" type="button">▶️</button>
+                            <button id="loopButton" class="button-style" type="button">Loop Off</button>
+                            <div>
+                                <span id="currentTime">0:00</span> / <span id="totalTime">0:00</span>
+                            </div>
+                            <div class="volume-control">
+                                <button id="volumeButton" class="button-style" type="button">🔊</button>
+                                <div class="volume-control-content hidden">
+                                    <input type="range" id="volumeControl" value="1" max="1" step="0.01" aria-label="Volume Control">
+                                </div>
+                            </div>
+                            <div class="more-options">
+                                <button id="moreOptionsButton" class="button-style" type="button">⚙️</button>
+                                <div class="more-options-content hidden">
+                                    <select id="playbackRateControl" aria-label="Playback Speed">
+                                        <option value="0.25">0.25x</option>
+                                        <option value="0.5">0.5x</option>
+                                        <option value="0.75">0.75x</option>
+                                        <option value="1" selected>1x</option>
+                                        <option value="1.25">1.25x</option>
+                                        <option value="1.5">1.5x</option>
+                                        <option value="1.75">1.75x</option>
+                                        <option value="2">2x</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <button id="hideControlsButton" class="button-style" type="button">Hide</button>
+                        </div>
+                    </div>
+                    <hr class="style-two">
+                </section>
+            </div>
+        </main>
+
+        <footer>
+            <hr class="style-two">
+            <div class="footer-content">
+                <p>このサイトは非公式のファンサイトです。詳細は<a href="about.html">こちら</a>。</p>
+                <p>&copy; 2024 天廻てん非公式サイト</p>
+                <p><a href="privacypolicy.html">プライバシーポリシー</a></p>
+            </div>
+        </footer>
+
+        <a id="theme-change" class="select-disabled">◐</a>
+        <a id="back-to-top" class="select-disabled">⤴️</a>
+
+        <script src="js/common.js"></script>
+        <script src="js/voice.js"></script>
+
+    </body>
+</html>

@@ -1,0 +1,77 @@
+[
+    {
+        "label": "どうも",
+        "voice": "voice/doumo.mp3",
+        "group": "U0AoXgVeU1unUAnG"
+    },
+    {
+        "label": "夜ごはん",
+        "voice": "voice/yorugohan.mp3",
+        "group": "U0AoXgVeU1unUAnG"
+    },
+    {
+        "label": "天廻はプリンかな",
+        "voice": "voice/amaehapurinkana.mp3",
+        "group": "U0AoXgVeU1unUAnG"
+    },
+    {
+        "label": "やぁそれな",
+        "voice": "voice/yasorena.mp3",
+        "group": "U0AoXgVeU1unUAnG"
+    },
+    {
+        "label": "たしかに",
+        "voice": "voice/tashikani.mp3",
+        "group": "U0AoXgVeU1unUAnG"
+    },
+    {
+        "label": "いいね",
+        "voice": "voice/iine.mp3",
+        "group": "U0AoXgVeU1unUAnG"
+    },
+    {
+        "label": "OverWatch",
+        "voice": "voice/overwatch.mp3",
+        "group": "U0AoXgVeU1unUAnG"
+    },
+    {
+        "label": "NTNT",
+        "voice": "voice/ntnt.mp3",
+        "group": "U0AoXgVeU1unUAnG"
+    },
+    {
+        "label": "やぁ無理",
+        "voice": "voice/yaamuri.mp3",
+        "group": "U0AoXgVeU1unUAnG"
+    },
+    {
+        "label": "えぇ",
+        "voice": "voice/ee.mp3",
+        "group": "U0AoXgVeU1unUAnG"
+    },
+    {
+        "label": "えぇマジありがとう",
+        "voice": "voice/eemajiarigatou.mp3",
+        "group": "U0AoXgVeU1unUAnG"
+    },
+    {
+        "label": "GG",
+        "voice": "voice/gg.mp3",
+        "group": "U0AoXgVeU1unUAnG"
+    },
+    {
+        "label": "ぽはよう",
+        "voice": "voice/pohayou.mp3",
+        "group": "SgPbLZrKxt_f1m5u"
+    },
+    {
+        "label": "天廻てん400歳",
+        "voice": "voice/amaeten400sai.mp3",
+        "group": "SgPbLZrKxt_f1m5u"
+    },
+    {
+        "label": "うんち",
+        "voice": "voice/unchi.mp3",
+        "group": "BpEjFBA_IWqs0xRS"
+    }
+]
