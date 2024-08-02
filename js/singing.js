@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', function() {
   const singingFile = '../json/singing.json';
 
   let selectedVid = '';
-
+  
   // 隱藏視頻和表格的函數
   function hideVideoAndTable() {
     if (youtubeVideo) {
@@ -48,14 +48,16 @@ document.addEventListener('DOMContentLoaded', function() {
     // 檢查所有 note 欄位是否都是空的
     const allNotesEmpty = videoData.songs.every(song => song.note === "");
 
-    // 動態生成表格頭部
-    songsTableHead.innerHTML = `<tr class="select-disabled">
-      <th>No.</th>
-      <th>Time</th>
-      <th>Song Name</th>
-      <th>Author</th>
-      ${!allNotesEmpty ? '<th>Note</th>' : ''}
-    </tr>`;
+    if (videoData.songs.length) {
+      // 動態生成表格頭部
+      songsTableHead.innerHTML = `<tr class="select-disabled">
+        <th>No.</th>
+        <th>Time</th>
+        <th>Song Name</th>
+        <th>Author</th>
+        ${!allNotesEmpty ? '<th>Note</th>' : ''}
+      </tr>`;
+    }
 
     videoData.songs.forEach((song, index) => {
       const row = document.createElement('tr');
