@@ -45,11 +45,9 @@ document.addEventListener('DOMContentLoaded', function() {
     songsTable.classList.remove('hidden');
     songsTableBody.innerHTML = '';
 
-    // 檢查所有 note 欄位是否都是空的
     const allNotesEmpty = videoData.songs.every(song => song.note === "");
 
     if (videoData.songs.length) {
-      // 動態生成表格頭部
       songsTableHead.innerHTML = `<tr class="select-disabled">
         <th>No.</th>
         <th>Time</th>
